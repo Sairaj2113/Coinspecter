@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper .sidebar {
+  position: fixed;
+  left: 0;
+
+  background-color: #042331;
+  color: rgb(100, 62, 144);
+  height: 100%;
+  padding: 30px 0;
+}
+
+.wrapper .sidebar ul li a{
+  display: block;
+  color: white;
+  padding: 15px;
+  border-bottom: 1px solid black;
+  border-top: 10x solid rgba(255, 255, 255, 0.05);
+  transition: .4s;
+}
+.wrapper .sidebar ul li:hover a{
+  padding-left:20px;
+}
+.wrapper .sidebar ul li i{
+  margin-right: 16px;
+}
+
+.wrapper .sidebar .logo img{
+  width: 200px;
+  height: 40px;
+}
+
+.wrapper .sidebar img{
+  height: 20px;
+  width: 20px;
+}
+
+
+ .header h1{
+  padding-left: 16%;
+}
+
+.nav{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 200px;
+  background-color: antiquewhite;
+
+}
+
+
+.nav li{
+margin: 10px;
+text-decoration: underline;
+color: rgb(23, 22, 22)
+}
+  select{
+   border-radius: 10px;
+  }
+  .header-controls{
+    padding-left: 500px;
+    padding-top: 50px;
+    display: flex;
+  }
+
+
+.table{
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 84.5%;
+}
+
+input[type="text"]{
+  padding: 4px;
+  border-radius: 10px;
+  width: 40%;
+}
+.add{
+  width: 10%;
+  border-radius: 10px;
+  background-color: rgb(103, 227, 103);
+}
+
+.delete{
+  width: 10%;
+  border-radius: 10px;
+  background-color: rgb(205, 35, 40);
+}
+
+.add:hover{
+  background-color: darkgreen;
+  color: white;
+}
+
+.delete:hover{
+  background-color: darkred;
+  color: white;
+}
+
+
+table tr td{
+  padding: 2px;
+  text-align: center;
+}
+
+
+
+
+
